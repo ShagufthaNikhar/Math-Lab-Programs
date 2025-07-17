@@ -1,0 +1,59 @@
+# Plotting sine and cosine curves
+ %matplotlib inline
+ import matplotlib.pyplot as plt
+ import numpy as np
+ fig = plt.figure()
+ ax = plt.axes()
+ x = np.linspace(5, 20,100)
+ plt.plot(x, np.sin(x),'k-*')
+ plt.plot(x, np.cos(x),'r--*');
+
+ # Plotting a line(Line plot)
+ import numpy as np
+ import matplotlib . pyplot as plt
+ x=[1 ,2 ,3 ,4 ,6 ,7 ,8]
+ y=[2 ,7 ,9 ,1 ,5 ,10 ,3]
+ plt . plot (x , y ,'r--.')
+ plt . xlabel ('x - axis ')
+ plt . xlabel ('y - axis ')
+ plt . title ('My first graph |')
+ plt . show()
+ 
+ # Plotting a folium of de- cartes
+ from sympy import plot_implicit, symbols, Eq
+ x, y = symbols('x y')
+ p1=plot_implicit(Eq(x**3+y**3,3*4*x*y),(x,-10,10),(y,-10,10),Title='Follium 
+
+ # Plotting a circle
+ from sympy import plot_implicit, symbols, Eq
+ x, y = symbols('x y')
+ p1=plot_implicit(Eq(x**2+y**2, 8),(x,-4,4),(y,-4,4),title= 'Circle: $x^2+y^2
+
+ # Plot cardioid r=3(1+cos theta)
+ from pylab import *
+ theta = linspace (0 , 2*np .pi , 1000 )
+ r1=3+3*cos (theta )
+ polar ( theta , r1, 'r')
+ show()
+
+ # PLot cardioid r=3(1-cos theta)
+ from pylab import *
+ theta = linspace (0, 2*np .pi , 1000)
+ r1=3-3*cos(theta)
+ polar(theta , r1 , 'r')
+ show()
+ 
+ # Plot cardioid r^2=(1-cos theta)
+ from pylab import *
+ theta = linspace (0, 2*np .pi, 1000 )
+ r1=sqrt(1-cos(theta))
+ polar(theta, r1, 'r')
+ show()
+
+ # Plot cardioid 2*r=(1-cos theta)
+ from pylab import *
+ theta = linspace(0, 2*np.pi ,1000)
+ r1=(1-cos (theta))/2
+ polar (theta, r1 , 'r')
+ show()
+ 
