@@ -1,0 +1,74 @@
+# programe on differentailtions#
+ from sympy import*
+ x=symbols('x')
+ diff(2*exp(3*x),x)
+
+ from sympy import*
+ x=symbols('x')
+ diff(sin(3*x),x)
+
+ from sympy import*
+ y=symbols('y')
+ diff(sin(3*y),y)
+ 
+ from sympy import*
+ x=symbols('x')
+ diff(2*exp(3*x),x)
+
+ #product of rule#
+ from sympy import*
+ x=symbols('x')
+ f=(x*2*1)
+ g=(x*4+7*x+1)
+ diff(f*g)
+
+ from sympy import*
+ y=symbols('y')
+ f=(y*7*8)
+ g=(y*10+7*2+1)
+ diff(f*g)
+ 
+ #u/v rule#
+ from sympy import*
+ x=symbols('x')
+ f=(x*4+7*5)
+ g=(x*3+5*8+9)
+ diff(f/g)
+
+ #integration#
+ import sympy as shaguftha
+ x=symbols('x')
+ shaguftha.integrate(6*x,x)
+
+ import sympy as shaguftha
+ y=symbols('y')
+ shaguftha.integrate(5+6*y,y)
+
+ import sympy as shaguftha
+ x=symbols('x')
+ shaguftha.integrate(2+3+5*x,x)
+
+ import sympy as shaguftha
+ y=symbols('y')
+ shaguftha.integrate(3+x*1*x,x)
+
+ import sympy as shaguftha
+ x=symbols('x')
+ shaguftha.integrate(2*3*4*5*6*7*8*9*x,x)
+
+ import sympy as mahek
+ y=symbols('y')
+ mahek.integrate(6*7*8*9*x*x,x)
+
+
+ import sympy as sara
+ x=symbols('x')
+ sara.integrate(2*2*2*2*2*x*x*x*x*x,x)
+
+ import numpy as ayeesha
+ A=ayeesha.array([[1,2,3,4],[5,6,6,7],[7,8,9,0]])
+ print("A=",A)
+
+ import numpy as fiza
+ A=fiza.array([[1,0,1,0],[2,0,2,0],[3,0,3,0]])
+ print("A=",A)
